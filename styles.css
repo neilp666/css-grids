@@ -1,0 +1,20 @@
+body {
+    background-color: #ffffff;
+    margin: 80px auto 80px auto;
+    width: 1140px;
+}
+
+section {
+    display: grid;
+   
+    grid-template-rows: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    grid-column: span 1;
+    grid-row: span 2;
+}
